@@ -8,11 +8,6 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 
-export const metadata = {
-  title: 'Explore',
-  description: 'Explore the features of this app',
-};
-
 export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
