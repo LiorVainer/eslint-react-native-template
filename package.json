@@ -13,18 +13,11 @@
     "lint:fix": "eslint . --fix",
     "prepare": "husky"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npx lint-staged"
-    }
-  },
   "lint-staged": {
     "*.ts": [
-      "prettier --write",
       "eslint --fix"
     ],
     "*.tsx": [
-      "prettier --write",
       "eslint --fix"
     ]
   },
